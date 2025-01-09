@@ -154,7 +154,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ?>
 
     <div class="container">
-        <h1>Welcome to My Daily Journal</h1>
+        <h1>Operator</h1>
         <form method="post">
             <div class="input-container">
                 <input type="text" name="user" placeholder="Enter Username" required>

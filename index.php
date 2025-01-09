@@ -73,7 +73,7 @@ include "koneksi.php";
    <!-- article begin -->
 <section id="article" class="text-center p-5">
   <div class="container">
-    <h1 class="fw-bold display-4 pb-3">article</h1>
+    <h1 class="fw-bold display-4 pb-3">Article</h1>
     <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
       <?php
       $sql = "SELECT * FROM article ORDER BY tanggal DESC";
@@ -109,29 +109,29 @@ include "koneksi.php";
     <h3><center>Gallery</center></h3>
     <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="LATIHAN_PHP3/img/kota.lama3.png" class="d-block w-100" alt="Kota Lama">
+        <div class="carousel-item active">
+                <img src="img/kota.lama2.png" class="d-block w-100" alt="Kota Lama">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Kota Lama Semarang</h5>
                     <p>Kawasan bersejarah di Semarang yang penuh dengan bangunan bergaya Eropa.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="lawang.sewu2.png" class="d-block w-100" alt="Lawang Sewu">
+                <img src="img/lawang.sewu2.png" class="d-block w-100" alt="Lawang Sewu">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Lawang Sewu</h5>
                     <p>Bangunan bersejarah dengan desain arsitektur kolonial dan atmosfer mistis.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="sampookong2.png" class="d-block w-100" alt="Sam Poo Kong">
+                <img src="img/sampookong2.png" class="d-block w-100" alt="Sam Poo Kong">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Sam Poo Kong</h5>
                     <p>Klenteng tertua di Semarang yang merupakan perpaduan budaya Tiongkok dan Jawa.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="masjid.agung2.png" class="d-block w-100" alt="Masjid Agung Semarang">
+                <img src="img/masjid.agung2.png" class="d-block w-100" alt="Masjid Agung Semarang">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Masjid Agung Semarang</h5>
                     <p>Masjid megah dengan arsitektur khas Jawa dan modern, simbol religi kota Semarang.</p>
